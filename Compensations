@@ -4,8 +4,8 @@ library(tidyverse)
 library(boot) # for diagnostic plot
 
 #read in datasets
-kaggle <- read_csv("C:/Users/ricky/Documents/Challenge/multipleChoiceResponses.csv")
-stackOverflow <- read_csv("C:/Users/ricky/Documents/Challenge/survey_results_public.csv")
+kaggle <- read_csv("dir/multipleChoiceResponses.csv")
+stackOverflow <- read_csv("dir/survey_results_public.csv")
 
 # just some data cleaning
 has_compensation <- kaggle %>%
